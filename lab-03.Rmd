@@ -21,11 +21,7 @@ library(ggplot2)
 knitr::include_graphics("img/Speaking-the-world.jpg")
 ```
 
-_Write your comments about image 1 below_
-
-
-
-
+_Bar chart but chinese bar is too wide in respect to other bars, scale is different for different languages._
 
 ## Image 2
 
@@ -33,10 +29,7 @@ _Write your comments about image 1 below_
 knitr::include_graphics("img/rose-pop-density-total-area-bw.jpg")
 ```
 
-_Write your comments about image 2 below_
-
-
-
+_Not easy for human to read, data is not well represented. Not clear what dimension represents which variable. colours are very similar_
 
 ## Image 3
 
@@ -44,10 +37,7 @@ _Write your comments about image 2 below_
 knitr::include_graphics("img/life-expectancy-rule-of-law.png")
 ```
 
-_Write your comments about image 3 below_
-
-
-
+_Points are cluttered and hard to distinguish, very small hard to read the points, no scale, no key for the colours_
 
 ## Image 4
 
@@ -55,11 +45,7 @@ _Write your comments about image 3 below_
 knitr::include_graphics("img/global-income-dist.PNG")
 ```
 
-_Write your comments about image 4 below_
-
-
-
-
+_Not clear which variable occupies which area, no clear scale (e.g. continents? countries?)_
 
 # Exercises
 
