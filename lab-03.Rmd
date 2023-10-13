@@ -107,15 +107,16 @@ ggplot(data = staff_long,
 ## Exercise 5
 
 ```{r mutate-year}
-## Uncomment and complete the following code
-
-#staff_long <- staff_long %>%
-#  mutate(year = ______(year))
+staff_long <- staff_long %>%
+  mutate(year = as.numeric(year))
 ```
 
 
 ```{r working-line-plot}
-# Write your code for Exercise 5 here
+ggplot(data = staff_long,
+       mapping = aes(x = year, 
+                     y = percent,)) +
+  geom_line()
 
 
 
@@ -144,7 +145,7 @@ _Write below your ideas for adapting the line plot_
 ## Exercise 8
 
 ```{r implement-Ex7}
-# Write your code for Exercise 8 here
+fulltime_parttime <- staff %>% filter(faculty_type == ("Full-Time Tenured Faculty" | "Part_Time Faculty"))
 
 
 
