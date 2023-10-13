@@ -56,7 +56,7 @@ staff <- read_csv("data/instructional-staff.csv")
 
 ## Exercise 1
 
-
+A wide format has values that do not repeat in the first column. A long format has values that do repeat in the first column. 
 
 Is the format `staff` data *wide* or *long*?
 
@@ -72,12 +72,13 @@ there are five observations
 ```{r pivoting}
 ## Uncomment and complete the following code
 
-#staff_long <- ___ %>%
-#  ___(
-#    cols = ____, 
-#    names_to = "_____",
-#    values_to = "percent"
-#    )
+staff_long <- staff %>%
+  pivot_longer(
+    cols = 2:12, 
+    names_to = "year",
+    values_to = "percent"
+    ) %>%
+  view()
 
 ```
 
