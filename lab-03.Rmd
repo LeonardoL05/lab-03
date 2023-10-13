@@ -1,6 +1,6 @@
 ---
 title: "Lab 03 - Take a sad plot and make it better"
-author: "User ,Aksel Huillard d'Aignaux, User"
+author: "Leonardo ,Aksel Huillard d'Aignaux, User"
 date: "`r Sys.Date()`"
 output: html_document
 ---
